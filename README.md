@@ -1,1 +1,0 @@
-# STR_PCdata
