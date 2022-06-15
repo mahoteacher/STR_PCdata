@@ -1,0 +1,7 @@
+embedVideo.image('https://www.youtube.com/watch?v=ekETjYMo6QE', {image: 'mqdefault'}, function (err, thumbnail) {
+  if (err) throw err
+  console.log(thumbnail.src)
+  // https://img.youtube.com/vi/ekETjYMo6QE/mqdefault.jpg
+  console.log(thumbnail.html)
+  // <img src="https://img.youtube.com/vi/ekETjYMo6QE/mqdefault.jpg"/>  
+})
